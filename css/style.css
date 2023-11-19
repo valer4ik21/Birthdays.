@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lora:wght@500&display=swap");
+.container {
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: "Lora";
+  font-weight: 500;
+  background: url(..//img/maxresdefault2.png);
+  background-repeat: no-repeat;
+}
+
+.home {
+  margin-bottom: 584px;
+}
+.home__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.home__content {
+  max-width: 600px;
+}
+.home__title {
+  font-family: "Lora";
+  font-size: 26px;
+  font-weight: 500;
+  color: rgb(100, 175, 221);
+  margin-bottom: 20px;
+}
+.home__about {
+  font-family: "Lora";
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(91, 5, 91);
+}
+.home__titles {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(84, 84, 224);
+  margin-bottom: 20px;
+  margin-top: 28px;
+}
+.home__texts {
+  font-size: 23px;
+  font-weight: 500;
+  color: rgb(82, 149, 14);
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+}
+.home__texts:last-child {
+  margin: 0;
+}
+.home__imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.home__img {
+  width: 400px;
+  height: 200px;
+}
+
+.header {
+  margin-top: 20px;
+  margin-bottom: 56px;
+}
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.header__logo {
+  font-family: "Kdam Thmor Pro";
+  font-weight: 400;
+  font-size: 53px;
+  color: rgb(48, 50, 52);
+}
+
+.why__title {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: "Lora";
+  color: rgb(35, 34, 34);
+  text-align: center;
+}
+.why__video {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+@media (max-width:320px){
+    
+  .why__title{
+      margin-left: 450px;
+      width: 100%;
+      font-size: 49px;
+  }
+
+  .header__logo{
+      margin-left: 868px;
+  }
+
+  .home__title{
+      font-size: 43px;
+      margin-left: 473px;
+  }
+
+  .home__about{
+    font-size: 18px;
+  }
+
+}
